@@ -18,6 +18,7 @@ public class RegistrationServiceController {
     @PostMapping("/addUser")
     public UserModel registerUser(@RequestBody UserEntity user) throws InvocationTargetException, IllegalAccessException {
         System.out.println("test");
+        System.out.println("test");
         return service.registerUser(user);
     }
 
