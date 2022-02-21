@@ -28,7 +28,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
           image: danishshakil15/registration-service
-          tags: v1.0
+          tags: v2.0
           registry: docker.io
           dockerfile: Dockerfile
           username: ${{ secrets.DOCKER_USERNAME }}
