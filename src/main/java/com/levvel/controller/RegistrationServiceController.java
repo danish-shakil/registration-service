@@ -30,7 +30,7 @@ public class RegistrationServiceController {
     @GetMapping(value = "/test")
     public String test() {
         System.out.println("here in the test endpoint !------!");
-        return "Testing 123...";
+        return "Testing 123... v2";
     }
 
 }
