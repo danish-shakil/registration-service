@@ -27,4 +27,9 @@ public class RegistrationServiceController {
         return service.findUserByEmail(email);
     }
 
+    @GetMapping(value = "/test")
+    public void test() {
+        System.out.println("here in the test endpoint !------!");
+    }
+
 }
